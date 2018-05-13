@@ -1,4 +1,4 @@
-# Scritp for show system metrics
+# Script for show system metrics
 
 Python script which allow you show cpu and memory metrics
 
@@ -19,23 +19,23 @@ python system_metrics.py `param`
 
 ### python system_metrics.py cpu
 
-system.cpu.idle 76083.57
+`system.cpu.idle 76083.57
 system.cpu.user 61.98
 system.cpu.guest 0.0
 system.cpu.iowait 190.72
 system.cpu.stolen 0.0
-system.cpu.system 63.3
+system.cpu.system 63.3 `
 
 
 ### python system_metrics.py mem
 
-virtual total 2076434432
+`virtual total 2076434432
 virtual used 696209408
 virtual free 127070208
 virtual shared 1130496
 swap total 1073737728
 swap used 593920
-swap free 1073143808
+swap free 1073143808`
 
 ## Usage Docker
 
