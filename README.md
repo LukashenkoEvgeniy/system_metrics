@@ -45,10 +45,10 @@ swap free 1073143808
 
 Docker image with all dependencies. Just run docker with one of both params, like:
 
-`docker run -t --rm yevheniilukashenko/metrics cpu`
+`docker run -t --rm yevheniilukashenko/metrics:latest cpu`
 
 or
 
-`docker run -t --rm yevheniilukashenko/metrics mem`
+`docker run -t --rm yevheniilukashenko/metrics:latest mem`
 
 Docker image avalible in [docker hub](https://hub.docker.com/r/yevheniilukashenko/metrics/)
